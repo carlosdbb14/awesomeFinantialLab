@@ -5,6 +5,7 @@ import Balance from '../balance/Balance'
 import BalanceAdd from '../balanceadd/BalanceAdd'
 import Goals from '../goals/Goals'
 import GoalsAdd from '../goalsadd/GoalsAdd'
+import Missions from '../missions/Missions'
 
 import './BodyContainer.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -22,6 +23,7 @@ export default class BodyContainer extends Component {
                     <Route path="/balance/add" exact component={BalanceAdd} />
                     <Route path="/goals" exact component={Goals} />
                     <Route path="/goals/add" exact component={GoalsAdd} />
+                    <Route path="/missions" exact component={Missions} />
                 </Router>
             </div>
         )
