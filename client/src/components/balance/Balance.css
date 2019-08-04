@@ -1,6 +1,74 @@
 .balance-char-container{
     width: 100%;    
+    height: 45vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.balanace-transactions{
+    padding: 2%;
+}
+.transactions-container{
+    padding: 1% 3% 0 3%;
+}
+.transaction{
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    border-bottom: grey solid 1px;
+    margin: 2% 0;
+}
+.transaction-info{
+    width: 70%;
+    padding-left: 2%;
+}
+.transaction-icon{
+    background-color:#6E7BF0;
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 60px;
+    
+}
+.expense{
+    color: rgba(0, 143, 251, 0.85);
+}
+.ingress{
+    color: rgba(0, 227, 150, 0.85);
+}
+
+.transaction-add{
+    position: absolute;
+    top: 82%;
+    right: 3%;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #499BD5;
+    font-size: 1.5rem;
+}
+
+.balance-add-container{
+    padding: 3%;
+}
+.transaction-value{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.transaction-button{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;    
 }

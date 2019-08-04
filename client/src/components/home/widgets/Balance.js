@@ -11,19 +11,19 @@ export default function Balance(props) {
                 <div className="balance-value">
                     ${props.value}
                 </div>
-                <div className="balance-add"><b>+</b></div>
+                <div className="balance-add" onClick={() => window.location = "/balance/add"}><b>+</b></div>
                 <div className="balance-resume">
                     <div className="balance-expenses">
                         <FontAwesomeIcon icon={faChevronCircleUp} size="2x"/>
                         <div className="balance-value-text">
-                            Egresos
+                            Egresos <br/>
                             ${props.expenses}
                         </div>
                     </div>
                     <div className="balance-ingress">
                         <FontAwesomeIcon icon={faChevronCircleDown} size="2x"/>
                         <div className="balance-value-text">
-                            Ingresos
+                            Ingresos<br/>
                             ${props.ingress}
                         </div>
                         
