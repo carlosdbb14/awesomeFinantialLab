@@ -9,3 +9,6 @@ html,.root,body {
     overflow-y: scroll;
     overflow-x: hidden;
 }
+.root{
+    overflow: hidden;
+}
