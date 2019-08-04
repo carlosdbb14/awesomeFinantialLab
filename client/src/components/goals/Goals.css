@@ -1,0 +1,51 @@
+.goal-create{
+    height: 20vh;
+    width: 90%;
+    background-color: #EE776D;
+    border-radius: 25px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8rem;
+    padding: 5%;
+    margin: 2% 5%;
+}
+.goal-create:hover{
+    background-color: rgb(236, 190, 186);
+}
+.goal-create span{
+    margin-left: 5%;
+}
+.goal-main-container{
+    height: 100%;
+    width: 100%;
+}
+.goals-element{
+    height: 20vh;
+    width: 90%;
+    background-color: #2BB2AE;
+    border-radius: 25px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8rem;
+    padding: 5%;
+    margin: 2% 5%;
+    position: relative;
+}
+.goals-element-porcent{
+    position: absolute;
+    bottom: 5%;
+}
+.goals-element-icon{
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+}
+.goals-element-title{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
