@@ -15,8 +15,8 @@ export default class Help extends Component {
         super(props);
         this.state = {
             me: 50,
-            family: 60,
-            money: 10
+            family: 50,
+            money: 50
         }
     }
     alter(values){
