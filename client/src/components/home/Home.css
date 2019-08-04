@@ -1,0 +1,127 @@
+.title-home{
+    font-size: 1.7rem;
+    margin-left: 3%;
+}
+.balance-container{
+    padding: 2%;
+    height: 25vh;
+}
+.balance-card{
+    background: linear-gradient(#1F63EC, #1F8CD8);
+    height: 70%;
+    width: 95%;
+    margin: 2% auto ;
+    border-radius: 25px;
+    position: relative;
+    padding: 2%;
+}
+.balance-add{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #499BD5;
+    font-size: 1.5rem;
+}
+.balance-value{
+    color:white;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 2rem;
+}
+.home-container{
+    height: 100%;
+}
+.balance-resume{
+    display: flex;
+    color:rgba(255, 255, 255, 0.863);
+    font-size: 1.5rem;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-left: 2%;
+    justify-content: center;
+    align-items: center;
+}
+.balance-expenses,.balance-ingress{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+.balance-value-text{
+    margin-left: 5%;
+}
+
+
+
+
+/* Goals */
+.goals-container-main{
+    padding: 2%;
+}
+.goals-container{
+    height: 32vh;
+    display: flex;
+    position: relative;
+}
+.goals-element-primary{
+    width: 45vw;
+    height: 30vh;
+    margin: 2%;
+    border-radius: 25px;    
+    background-color: #6E7BF0;
+    position: relative;
+}
+.goals-element-secondary{
+    width: 45vw;
+    height: 20vh;
+    margin: 2%;
+    border-radius: 25px;    
+    background-color: #F7BC56;
+    position: relative;
+}
+.goals-title{
+    position: absolute;
+    top: 5%;
+    left: 6%;
+    color: white;
+    width: 100%;
+    font-size: 2rem;
+}
+.goals-procent{
+    position: absolute;
+    bottom: 5%;
+    left: 6%;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 2rem;
+}
+.goals-icon{
+    position: absolute;
+    bottom: 5%;
+    right: 12%;
+    color: white;
+    font-size: 2.5rem;
+}
+.goals-element-add{
+    position: absolute;
+    width: 45vw;
+    height: 8vh;
+    margin: 2%;
+    bottom: 2%;
+    right: 0;
+    border-radius: 25px;    
+    background-color: #F7BC56;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
