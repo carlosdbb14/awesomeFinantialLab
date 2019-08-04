@@ -7,4 +7,5 @@ html,.root,body {
 }
 .bodycontainer-container{
     overflow-y: scroll;
+    overflow-x: hidden;
 }

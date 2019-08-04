@@ -5,8 +5,8 @@ import NavbarElement from './NavbarElement'
 export default class Navbar extends Component {
     constructor(props){
         super(props);
-        let routes = ["/","/balance","/goals","/help","/missions"]
-        let ac = routes.indexOf(window.location.pathname)
+        let routes = ["","balance","goals","help","missions"]
+        let ac = routes.indexOf(window.location.pathname.split("/")[1])
         this.state = {
             active:ac
         }
