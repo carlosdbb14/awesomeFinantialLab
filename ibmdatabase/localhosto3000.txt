@@ -1,0 +1,13 @@
+cd get-started-node
+
+npm start
+
+ibmcloud login
+d.beta@ieee.org
+62842......
+
+ibmcloud target --cf
+
+ibmcloud cf push
+
+ibmcloud cf apps

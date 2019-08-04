@@ -1,0 +1,101 @@
+<!-- CODIGO REALIZADO POR DANIEL STEVEN BETANCOURT CORREA     -->
+<!--    FUNDADOR DE _U_Society                                -->
+<!--          LOGIN                                           -->
+
+<!doctype html>
+<html lang="es">
+<head>
+  <title> CDteamHACK </title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Codigo de index, CDteamHACK">
+  <meta name="keywords" content="CDteamHACK">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/lib/jquery.i18n/jquery.i18n.js"></script>
+    <script src="js/lib/jquery.i18n/jquery.i18n.messagestore.js"></script>
+    <script src="js/lib/jquery.i18n/jquery.i18n.fallbacks.js"></script>
+    <script src="js/lib/jquery.i18n/jquery.i18n.language.js"></script>
+    <script src="js/lib/jquery.i18n/jquery.i18n.parser.js"></script>
+    <script src="js/lib/jquery.i18n/jquery.i18n.emitter.js"></script>
+    <script src="js/lib/jquery.i18n/jquery.i18n.emitter.bidi.js"></script>
+    <script src="antixss.js" type="text/javascript"></script>
+
+  <!--
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <link rel="icon" href="/Users/Beta/Documents/Beta_Documents/2 ________Empresa/4_U_Society/anonymous_mask1600.ico"> 
+  -->
+<!--  EN CSS VA LA DECORACION -->
+<!--// CSS ************************************************* -->
+  <style type="text/css">
+
+  
+
+  </style> 
+<!--// CSS ************************************************* -->
+</head>
+<body > 
+<!--  EN BODY VA TODO EL TEXTO -->  
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<form action="" method="post" class="form_contact" id="miForm">
+  <h2>DATOS DE CONTACTO</h2>
+  <div class="user_info">
+
+    <label for="dni_number">Numero de identificación</label>
+    <td><input type="text" name="dni" id="dni_number" value="1" /></td>
+
+    <label for="nombreyapellido">Nombre y Apellido</label>
+    <td><input type="text" name="full_name" value="Pedro Pérez" /></td>
+
+    <label for="contact_phone">Celular</label>
+    <td><input type="tel" name="contact_phone" value="633555555" /></td>
+
+    <label for="email_address">Correo Electrónico</label>
+    <td><input type="email" name="email_address" value="uncorreo@mail.com" id="emailid"/></td>
+    <br>
+
+    <input type="submit" value="Enviar" id="btnSend">
+
+  </div>
+</form>
+
+<!--  EN JS VA TODO LOS ACTUADORES 
+<script type="text/javascript">
+
+</script>
+-->
+</body> 
+</html>
+
+<script type="text/javascript">
+
+  $(function() { 
+  $('#miForm').on('submit', function(e) { 
+    e.preventDefault();
+  var jsonData=$(this).serializeArray()
+    .reduce(function(a, z) { a[z.name] = z.value; return a; }, {});
+    console.log(jsonData);
+    //obj = JSON.parse(jsonData)
+
+$.ajax({
+method: "POST",
+url: "./api/visitors",
+contentType: "application/json",
+data: JSON.stringify({"name":jsonData})
+})
+
+
+
+});
+
+
+
+});
+  
+
+
+
+
+</script>
