@@ -51,15 +51,23 @@
 }
 .question-card img{
     opacity: .5;
-    margin-left: -20%;
-    margin-top: -10%;
+    height: 100%;
+    margin-left: -50%;
 }
 .question-info{
     position: absolute;
     color: white;
     z-index: 2;
     margin: 5%;
+    font-size: 1.5rem;
 }
 .question-info-title{
     font-size: 2rem;
+}
+.advice{
+    margin-top: 10%;
+}
+.advice-container{
+    width: 100%;
+    padding: 5%;
 }

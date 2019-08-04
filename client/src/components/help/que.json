@@ -1,0 +1,27 @@
+[
+    {
+        "title":"Tarjeta de credito",
+        "que":"Si un banco te ofrece una tarjeta de crédito y tu nivel de endeudamiento esta en el 53%, la tomarías? ",
+        "y":[20,0,-30],
+        "n":[0,0,30],
+        "url":"https://4brf13430svm3bnu053zbxvg-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/Instant-Approval-Credit-Cards.jpg"
+    },{
+        "title":"Inversion",
+        "que":"Crees que invertir es solo para millonarios?",
+        "y":[0,0,0],
+        "n":[0,0,-20],
+        "url":"https://www.bbva.com/wp-content/uploads/2016/08/Fondos-Estrategia-BBVA-Bancomer-portada.-e1485335541719.jpg"
+    },{
+        "title":"Credito de vivienda ",
+        "que":"Con tu balance actual, ¿Crees que estas preparado para un credito de vivienda?",
+        "y":[50,30,0],
+        "n":[20,30,0],
+        "url":"https://static.iris.net.co/finanzas/upload/images/2015/12/18/58018_1.jpg"
+    },{
+        "title":"Gota a gota",
+        "que":"¿Harias uso de un prestamo gota a gota, si te ofrece una tasa del 30% E.A?",
+        "y":[50,0,-30],
+        "n":[0,10,50],
+        "url":"https://www.periodistadigital.com/wp-content/uploads/2019/02/pre-stamo-gota-gota.jpg"    
+    }
+]
