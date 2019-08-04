@@ -60,11 +60,11 @@ export default class Help extends Component {
                     </div>
                 </div>
                 <div className='advice'>
-                    <span className="title-home"><b>Consejo financiaero</b></span>
+                    <span className="title-home"><b>Consejero financiero</b></span>
                     <Advice 
                     title="CONSOLIDA TU DEUDA EN UN SOLO LUGAR!"
-                    des="Es mas beneficioso tener todas tus deudas con alguien confiable que te entiende.
-                    Resultado esperado: Si lo haces así, podrías tener menos deudas, cuotas mas bajas y mejores tasas.
+                    des="Es más beneficioso tener todas tus deudas con alguien confiable que te entiende.
+                    Resultado esperado: Si lo haces así, podrías tener menos deudas, cuotas más bajas y mejores tasas.
                     "/>
                 </div>
             </div>

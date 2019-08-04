@@ -1,0 +1,10 @@
+Modelo\Bolsillo.class
+Modelo\Gasto.class
+Modelo\Mision$Estado.class
+Modelo\Usuario.class
+Modelo\Mision.class
+Modelo\Movimiento.class
+Cloudant\ManejoJson.class
+Modelo\Ingreso.class
+Cloudant\pruebas.class
+Modelo\Meta.class

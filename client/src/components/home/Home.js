@@ -13,7 +13,7 @@ export default class Home extends Component {
         return (
             <div className="home-container">
                 <LevelCircle/>
-                <Balance value="50.000" expenses="40.000" ingress="50.000" />
+                <Balance value="1.150.000" expenses="1.350.000" ingress="2.500.000" />
                 <Goals/>
             </div>
         )

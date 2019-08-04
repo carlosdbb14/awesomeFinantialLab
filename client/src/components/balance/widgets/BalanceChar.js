@@ -46,7 +46,7 @@ export default class BalanceChar extends Component {
                 }
               }
             },
-            series: [5000/total, 8000/total, 6000/total],
+            series: [8000/total, 45000/total, 6000/total],
           };
       }
     

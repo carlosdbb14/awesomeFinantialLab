@@ -16,15 +16,15 @@ export default function Balance(props) {
                     <div className="balance-expenses">
                         <FontAwesomeIcon icon={faChevronCircleUp} size="2x"/>
                         <div className="balance-value-text">
-                            Egresos <br/>
-                            ${props.expenses}
+                            Ingresos <br/>
+                            ${props.ingress}
                         </div>
                     </div>
                     <div className="balance-ingress">
                         <FontAwesomeIcon icon={faChevronCircleDown} size="2x"/>
                         <div className="balance-value-text">
-                            Ingresos<br/>
-                            ${props.ingress}
+                            Egresos<br/>
+                            ${props.expenses}
                         </div>
                         
                     </div>
