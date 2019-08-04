@@ -9,7 +9,7 @@ export default class LevelCircle extends Component {
 
         this.state = {
           options: {
-            colors: ['#1f63ec', '#fff600', '#9C27B0'],
+            colors: ['#1f63ec', '#ec7404', '#9C27B0'],
             plotOptions: {
               radialBar: {
                 startAngle: -135,
@@ -58,23 +58,10 @@ export default class LevelCircle extends Component {
                 }
               }
             },
-            // fill: {
-            //   type: 'gradient',
-            //   gradient: {
-            //     shade: 'dark',
-            //     type: 'horizontal',
-            //     shadeIntensity: 0.5,
-            //     gradientToColors: ['#ABE5A1'],
-            //     inverseColors: true,
-            //     opacityFrom: 1,
-            //     opacityTo: 1,
-            //     stops: [0, 100]
-            //   }
-            // },
             stroke: {
               lineCap: 'round'
             },
-            labels: ['Nivel azul','Nivel amarillo'],
+            labels: ['Nivel azul','Nivel naranja  '],
           },
           series: [100,40],
         }
