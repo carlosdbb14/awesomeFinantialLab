@@ -5,9 +5,15 @@
     align-items: center;
 }
 .header-profile{
-    width: 12vw;
-    height: 12vw;
-    border-radius: 25px;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 15vw;
     background-color: black;
-    margin-right: 10vw;
+    margin-right: 4vw;
+    overflow: hidden;
+}
+.header-profile img{
+    height: 100%;
+    width: auto;
+    margin-left: -15%;
 }

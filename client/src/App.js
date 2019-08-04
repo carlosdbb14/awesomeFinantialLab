@@ -14,11 +14,11 @@ export default class App extends Component {
       page:0
     }
   }
-  changepage(newpage, parent){
+  changepage(newpage,newlocal, parent){
     parent.setState({
       page:newpage
     })
-    console.log(parent.state)
+    window.location = newlocal;
   }
 
 
@@ -27,7 +27,7 @@ export default class App extends Component {
       <div>
         <Header/>
         <BodyContainer page={this.state.page}/>
-        <Navbar changefunc={this.changepage} parentnav={this}/>
+        <Navbar changefunc={this.changepage} parentnav={this} page={this.state.page}/>
       </div>
     )
   }
